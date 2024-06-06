@@ -1,3 +1,5 @@
 databaseChangeLog:
    - include:
       file: tables.sql
+   - include:
+      file: addUsers.sql
