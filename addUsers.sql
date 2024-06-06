@@ -1,3 +1,5 @@
+--liquibase formatted sql
+
 --changeset adrianhawkins:add-mock-users
 INSERT INTO "Users" ("userProfilePicture", "email", "isDeleted") VALUES ('1', 'user1@example.com', FALSE);
 INSERT INTO "Users" ("userProfilePicture", "email", "isDeleted") VALUES ('2', 'user2@example.com', FALSE);
